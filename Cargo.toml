@@ -1,0 +1,8 @@
+[package]
+name = "zwatty"
+version = "0.1.0"
+edition = "2024"
+description = "An indoor cycling app written in Rust. Work in progress."
+repository = "https://github.com/luis8h/zwatty.git"
+
+[dependencies]
