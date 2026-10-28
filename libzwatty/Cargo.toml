@@ -1,0 +1,10 @@
+[package]
+name = "libzwatty"
+version = "0.0.1"
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Core library powering all zwatty frontends that can also be used indepentently for other projects"
+
+[dependencies]

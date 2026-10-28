@@ -1,9 +1,17 @@
-[package]
-name = "zwatty"
-version = "0.0.1"
-edition = "2024"
-description = "An indoor cycling app written in Rust. Work in progress."
-repository = "https://github.com/luis8h/zwatty.git"
-license = "MIT"
+[workspace]
+members = [
+    "libzwatty",
+    "zwatty",
+    "zwatty-tui",
+    "zwatty-cli"
+]
+resolver = "2"
 
-[dependencies]
+[workspace.package]
+edition = "2024"
+authors = ["Luis Schmidmeister info@luis8h.de"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/luis8h/zwatty"
+
+[workspace.dependencies]
+libzwatty = { version = "0.0.1", path = "./libzwatty" }

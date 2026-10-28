@@ -1,0 +1,11 @@
+[package]
+name = "zwatty"
+version = "0.0.1"
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Graphical user interface for zwatty"
+
+[dependencies]
+libzwatty = { workspace = true }
