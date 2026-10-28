@@ -1,3 +1,5 @@
+use libzwatty::hello_zwatty;
+
 fn main() {
-    println!("Hello, zwatty!");
+    hello_zwatty();
 }
