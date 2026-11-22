@@ -8,4 +8,6 @@ repository.workspace = true
 description = "Terminal user interface for zwatty"
 
 [dependencies]
+crossterm = "0.29.0"
 libzwatty = { workspace = true }
+ratatui = "0.30.2"
